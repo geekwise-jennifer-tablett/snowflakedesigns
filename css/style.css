@@ -7,13 +7,10 @@ body,html{
 /*header info */
 header{
     height:20rem;
-    width:200%;
+    width:100%;
     text-align:center;
     }
 
-#sec_search{
-    
-}
 
 #img_logo{
     margin:0 auto;
@@ -26,11 +23,19 @@ header{
     float:left;
     }
 
+#sec_search{
+    margin:0 auto;
+    padding:0;
+    height:150px;
+    width:456px;
+    float:right;
+}
+
 #nav_search{
     margin:0 auto;
     padding:0;
     display:block;
-    height:119px;
+    height:150px;
     width:456px;
     text-align:center;
     float:right;
@@ -40,6 +45,7 @@ header{
 #nav_search > ul{
     display:block;
     width:100%;
+    height:100%;
     }
 #nav_search > ul > li{
    margin:0 auto;
@@ -47,8 +53,9 @@ header{
     height:35px;
     width:calc(100%/6);
     font-size:11px;
+    text-align:center:
     color:#ffffff;
-    line-height:30px;
+    line-height:3px;
     float:left;
     display:inline;
     background-color:#6c5b79;
@@ -77,8 +84,12 @@ header{
 #pink{
     margin:0 auto;
     padding:0;
+    height:50px;
+    width:100%;
     text-align:center;
     border:black 2px solid;
+    float: left;
+    
 }
 
 #nav_pink{
@@ -87,6 +98,7 @@ header{
     display:block;
     height:50px;
     width:100%;
+    float:left;
     text-align:center;
     background-color:#f42098;
   
@@ -111,7 +123,27 @@ header{
     background-color:#f42098;
 }
 
+/*media query header*/
 
+@media only screen
+    and(max-width:1088px)
+    img{
+        transform:translatey()
+
+}
+
+@media only screen
+    and(max-width:960px)
+    /*drop down,display:none;,socialmedial,deleterow,logo*/
+}
+
+@media only screen
+    and(max-width:764px)
+    /*img,buttons*/
+    
+ @media only screen
+    and(max-width:520px)
+    /*display block, buttons*/
 
 
 
