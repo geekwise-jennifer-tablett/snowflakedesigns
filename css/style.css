@@ -1,0 +1,41 @@
+body,html{
+    margin:0 auto;
+    padding:0;
+    font-size:62.5%;
+    box-sizing:border-box;
+}
+/*header info */
+header{
+    height:145px;
+    width:100%;
+    text-align:center;
+    border: blue 1.3rem solid
+    }
+
+#img_logo{
+    margin:0 auto;
+    height:auto;
+    max-height:;
+    width:235px;
+    max-width:100%;
+    display:block;
+    float:left;
+    }
+
+#nav_search{
+    margin:0 auto;
+    padding:0;
+    display:block;
+    height:119px;
+    width:456px;
+    text-align:center;
+    float:right;
+    background-color:green;
+}
+
+nav_search > ul{
+    display:inline-block;
+    height:;
+    width:100%;
+    
+}
