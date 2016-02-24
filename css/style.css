@@ -12,6 +12,10 @@ header{
     border: blue 1.3rem solid
     }
 
+#sec_search{
+    
+}
+
 #img_logo{
     margin:0 auto;
     height:auto;
@@ -30,12 +34,79 @@ header{
     width:456px;
     text-align:center;
     float:right;
-    background-color:green;
+    border: green 5px solid;
 }
 
-nav_search > ul{
-    display:inline-block;
-    height:;
+#nav_search > ul{
+    display:block;
     width:100%;
+    }
+#nav_search > ul > li{
+   margin:0 auto;
+    padding:0;
+    height:35px;
+    width:calc(100%/6);
+    font-size:11px;
+    color:#ffffff;
+    line-height:30px;
+    float:left;
+    background-color:#6c5b79;
+}
+
+.search{
+    margin:0 auto;
+    padding:2px;
+    height:;
+    width:calc(100%/4);
+   text-align:center;
+    float:left;
+}
+
+#button_cart{
+    /*drop down*/
+    height:23px;
+    width:134px;
+    float:left;
+}
+
+#button_facebook{
+    height:30px;
+    width:30px;
+    float:left;
+}
+
+#button_amazon{
+    height:30px;
+    width:30px;
+    float:left;
     
 }
+
+#button_phone{
+    height:17px;
+    width:113px;
+    color:#f42098;
+    float:right;
+}
+
+#pink{
+    border:black 2px solid;
+}
+
+#nav_pink{
+     margin:0 auto;
+    padding:0;
+    display:block;
+    height:42px;
+    width:100%;
+    text-align:center;
+    background-color:#f42098;
+}
+
+
+
+
+
+
+
+
