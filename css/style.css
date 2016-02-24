@@ -38,7 +38,7 @@ header{
     height:150px;
     width:456px;
     text-align:center;
-    float:right;
+    float:left;
     border: green 5px solid;
 }
 
@@ -112,15 +112,34 @@ header{
      margin:0 auto;
     padding:0;
     height:42px;
-    width:calc(100%/10);
+    width:calc(100%/12);
     font-size:11px;
     color:#ffffff;
     line-height:30px;
     float:left; 
+    display:inline-block;
     list-style:none;
     float:left;
     background-color:#f42098;
 }
+
+.social{
+    margin:0 auto;
+    padding:0;
+    height:42px;
+   width:60px;
+    color:#ffffff;
+    line-height:30px;
+    text-align:center;
+    display:inline-block;
+    float:right; 
+    background-color:#f42098;
+}
+
+
+
+
+
 
 /*media query header*/
 
