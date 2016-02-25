@@ -12,6 +12,7 @@ header{
 
 
 #img_logo{
+    margin-top:8px;
     padding:0;
     height:auto;
     max-height:30rem;
@@ -22,9 +23,9 @@ header{
     }
 
 #sec_search{
-    margin:0 auto;
+    margin:0;
     padding:0;
-    width: 80%;
+    width: 50%;
     float: right;
 }
 
@@ -38,7 +39,7 @@ header{
     float:right;
 }
 
-#snav_search > ul{
+#nav_search > ul{
     display:inline-block;
     width:100%;
     float: right;
@@ -59,12 +60,30 @@ header{
 
 
 #shopping{
-    margin-right:150px;
-    padding:5px;
-    width:300px;
+    margin-top:5px;
+    padding:0;
+    width: 65%;
     display:block;
     text-align:center;
-    float:right;
+    float:right;    
+    text-align:center;
+   }
+
+#shopping > nav >{
+    margin:0;
+    padding:0;
+}
+
+
+#shopping > nav > ul{
+     display:inline-block;
+    width:100%;
+}
+
+#shopping > nav > ul > li{
+   margin:0;
+    width:calc(100%/4);
+    display:inline;
 }
 
 
@@ -72,14 +91,7 @@ header{
 
 /*drop down*/
 #dropdown_cart{
-    margin:0 auto;
-    padding:15px
-    font-size:20px;
-    float:left;
-    background-color:#ffffff;
-}
-
-#img_face{
+    font-size:15px;
     float:left;
 }
 
@@ -87,7 +99,7 @@ header{
     
     color:#f42098;
     float:right;
-    font-size: 12px;
+    font-size: 15px;
 }
 #pink{
     width:100%;
